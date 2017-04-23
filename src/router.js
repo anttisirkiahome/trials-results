@@ -12,7 +12,7 @@ const router = new Vuerouter({
       component: FirstPageComponent
     },
     {
-      path: '/second-page',
+      path: '/login',
       component: SecondPageComponent
     }
   ]

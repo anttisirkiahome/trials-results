@@ -1,8 +1,8 @@
 <template>
-  <div id="my-wrapper-element-id">
-    <nav>
-      <router-link to="/">Page 1</router-link>
-      <router-link to="/second-page">Page 2</router-link>
+  <div id="app-wrapper">
+     <nav>
+       <router-link to="/login">Login</router-link>
+       <!-- <router-link to="/second-page">Page 2</router-link> -->
     </nav>
   <router-view></router-view>
   </div>
@@ -12,6 +12,9 @@ export default {
 
 }
 </script>
+
+<style src="./styles/_common.scss" lang="scss"></style>
+
 <style lang="scss">
 
 </style>
